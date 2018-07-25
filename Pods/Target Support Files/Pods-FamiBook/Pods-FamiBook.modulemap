@@ -1,0 +1,6 @@
+framework module Pods_FamiBook {
+  umbrella header "Pods-FamiBook-umbrella.h"
+
+  export *
+  module * { export * }
+}
