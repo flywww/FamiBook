@@ -11,13 +11,17 @@
 		987E1E4283B2B5608C0BDCE8 /* Pods_FamiBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019549E668A727B65F71409C /* Pods_FamiBookUITests.framework */; };
 		E2906F63B3244D477C6C36BC /* Pods_FamiBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6C71BC7A3C5C1C9C5D3E1F /* Pods_FamiBookTests.framework */; };
 		E4383BD621079E3700EDD72E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4383BD521079E3700EDD72E /* AppDelegate.swift */; };
-		E4383BD821079E3700EDD72E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4383BD721079E3700EDD72E /* ViewController.swift */; };
+		E4383BD821079E3700EDD72E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4383BD721079E3700EDD72E /* MainViewController.swift */; };
 		E4383BDB21079E3700EDD72E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4383BD921079E3700EDD72E /* Main.storyboard */; };
 		E4383BDE21079E3700EDD72E /* FamiBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4383BDC21079E3700EDD72E /* FamiBook.xcdatamodeld */; };
 		E4383BE021079E3900EDD72E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4383BDF21079E3900EDD72E /* Assets.xcassets */; };
 		E4383BE321079E3900EDD72E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4383BE121079E3900EDD72E /* LaunchScreen.storyboard */; };
 		E4383BEE21079E3A00EDD72E /* FamiBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4383BED21079E3A00EDD72E /* FamiBookTests.swift */; };
 		E4383BF921079E3A00EDD72E /* FamiBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4383BF821079E3A00EDD72E /* FamiBookUITests.swift */; };
+		E4F274B322463A69008A930C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F274B222463A69008A930C /* UserModel.swift */; };
+		E4F274B522469C06008A930C /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F274B422469C06008A930C /* BaseModel.swift */; };
+		E4F274B72247963B008A930C /* DaybookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F274B62247963B008A930C /* DaybookModel.swift */; };
+		E4F274BA2247DF88008A930C /* User.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4F274B82247DF88008A930C /* User.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +52,7 @@
 		D036F3A8AAA70FA6C435785E /* Pods_FamiBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FamiBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4383BD221079E3700EDD72E /* FamiBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FamiBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4383BD521079E3700EDD72E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4383BD721079E3700EDD72E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4383BD721079E3700EDD72E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E4383BDA21079E3700EDD72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4383BDD21079E3700EDD72E /* FamiBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FamiBook.xcdatamodel; sourceTree = "<group>"; };
 		E4383BDF21079E3900EDD72E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +64,11 @@
 		E4383BF421079E3A00EDD72E /* FamiBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FamiBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4383BF821079E3A00EDD72E /* FamiBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamiBookUITests.swift; sourceTree = "<group>"; };
 		E4383BFA21079E3A00EDD72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4DF7341223C098A00C859B7 /* CodeTesting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CodeTesting.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E4F274B222463A69008A930C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		E4F274B422469C06008A930C /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		E4F274B62247963B008A930C /* DaybookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaybookModel.swift; sourceTree = "<group>"; };
+		E4F274B92247DF88008A930C /* User.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = User.xcdatamodel; sourceTree = "<group>"; };
 		ED6C71BC7A3C5C1C9C5D3E1F /* Pods_FamiBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FamiBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -126,8 +135,12 @@
 		E4383BD421079E3700EDD72E /* FamiBook */ = {
 			isa = PBXGroup;
 			children = (
+				E4F274BB2247EA5E008A930C /* Helpers */,
+				E4F274B122463955008A930C /* Views */,
+				E4F274B02246394A008A930C /* Controllers */,
+				E4F274AF22463929008A930C /* Models */,
+				E4DF7341223C098A00C859B7 /* CodeTesting.playground */,
 				E4383BD521079E3700EDD72E /* AppDelegate.swift */,
-				E4383BD721079E3700EDD72E /* ViewController.swift */,
 				E4383BD921079E3700EDD72E /* Main.storyboard */,
 				E4383BDF21079E3900EDD72E /* Assets.xcassets */,
 				E4383BE121079E3900EDD72E /* LaunchScreen.storyboard */,
@@ -166,6 +179,39 @@
 				A1CF8D1566D6E87FEF616D06 /* Pods-FamiBookUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4F274AF22463929008A930C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4F274B222463A69008A930C /* UserModel.swift */,
+				E4F274B422469C06008A930C /* BaseModel.swift */,
+				E4F274B62247963B008A930C /* DaybookModel.swift */,
+				E4F274B82247DF88008A930C /* User.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E4F274B02246394A008A930C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4383BD721079E3700EDD72E /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E4F274B122463955008A930C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4F274BB2247EA5E008A930C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,7 +369,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FamiBook/Pods-FamiBook-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-FamiBook/Pods-FamiBook-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
@@ -338,7 +384,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FamiBook/Pods-FamiBook-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FamiBook/Pods-FamiBook-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A728CF23F25E8FB59519280E /* [CP] Check Pods Manifest.lock */ = {
@@ -384,9 +430,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4383BD821079E3700EDD72E /* ViewController.swift in Sources */,
+				E4383BD821079E3700EDD72E /* MainViewController.swift in Sources */,
 				E4383BDE21079E3700EDD72E /* FamiBook.xcdatamodeld in Sources */,
+				E4F274B322463A69008A930C /* UserModel.swift in Sources */,
+				E4F274B72247963B008A930C /* DaybookModel.swift in Sources */,
+				E4F274BA2247DF88008A930C /* User.xcdatamodeld in Sources */,
 				E4383BD621079E3700EDD72E /* AppDelegate.swift in Sources */,
+				E4F274B522469C06008A930C /* BaseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,8 +611,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ACV7QGFPE8;
 				INFOPLIST_FILE = FamiBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -580,8 +631,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ACV7QGFPE8;
 				INFOPLIST_FILE = FamiBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -724,6 +776,16 @@
 			);
 			currentVersion = E4383BDD21079E3700EDD72E /* FamiBook.xcdatamodel */;
 			path = FamiBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		E4F274B82247DF88008A930C /* User.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E4F274B92247DF88008A930C /* User.xcdatamodel */,
+			);
+			currentVersion = E4F274B92247DF88008A930C /* User.xcdatamodel */;
+			path = User.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
